@@ -1,0 +1,32 @@
+.not-header {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    width: 74px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: absolute;
+    top: 40px;
+}
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 74px;
+    cursor: pointer;
+}
+.sidebar-link:hover {
+    background-color: rgba(128,128,128,0.15);
+}
+.sidebar-icon {
+    height: 24px;
+    width: 24px;
+}
+.sidebar-link div {
+    font-size: 10px;
+}
